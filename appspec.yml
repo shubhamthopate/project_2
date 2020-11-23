@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: project_2/CIC_EP/src/CIC_EP.Web.Host/src/index.html
+  - source: CIC_EP/src/CIC_EP.Web.Host/src/index.html
 
     destination: /var/www/html/
 hooks:
