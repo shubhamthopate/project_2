@@ -1,8 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: CIC_EP/src/CIC_EP.Web.Host/src/index.html
-
+  - source: /index.html
     destination: /var/www/html/
 hooks:
   BeforeInstall:
