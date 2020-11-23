@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
+  - source: CIC_EP/src/
+    destination: /var/www/html/CIC_EP.Web.Host/src/index
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
